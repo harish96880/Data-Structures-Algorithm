@@ -11,6 +11,14 @@ public class Main {
 
         list.append(6);
         list.append(8);
+        list.append(8);
+        System.out.println("The removed element is: " + list.removeLast().value);
+        list.prepend(0);
+        list.prepend(99);
+        System.out.println("Before");
         list.printList();
+        System.out.println("The removed element is :" + list.removeFirst().value);
+        list.printList();
+        list.getLength();
     }
 }
